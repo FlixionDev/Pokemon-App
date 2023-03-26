@@ -1,0 +1,19 @@
+#AllPokemonDiv{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    margin: auto;
+    row-gap: 10px;
+}
+#AllPokemonDiv div{
+    border-radius: 10px 7px;
+    height: 100%;
+    margin: 10px 15px;
+    
+}
+
+#AllPokemonDiv div img{
+    width: 100%;
+    height: 350px;
+} 
